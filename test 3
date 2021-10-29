@@ -1,0 +1,13 @@
+import random
+
+def middle():
+    
+    i = random.randint(1, 10)
+    matrix = []
+    for x in range(i):
+        matrix.append([])
+        for y in range(i):
+            matrix[x].append(random.randint(1, 9))
+    print(matrix, matrix[1:-1])
+    
+middle()
