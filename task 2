@@ -1,0 +1,14 @@
+import random
+
+def cumsum():
+    i = random.randint(1, 10)
+    matrix = []
+    cum = []
+    for x in range(i):
+        matrix.append(random.randint(1, 9))
+    for i in range(0,len(matrix)):
+        cum.append(sum(matrix[:i+1]))
+
+    print(matrix, cum)
+    
+cumsum()
