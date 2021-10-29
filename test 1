@@ -1,0 +1,15 @@
+import random
+
+def nested_sum():
+    
+    i = random.randint(1, 10)
+    t = 0
+    matrix = []
+    for x in range(i):
+        matrix.append([])
+        for y in range(i)):
+            matrix[x].append(random.randint(1, 9))
+            t += matrix[x][y]
+    print(matrix, t)
+    
+nested_sum()
